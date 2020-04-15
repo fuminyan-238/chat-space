@@ -5,7 +5,8 @@
 .wrapper {
   height: 100vh;
   display: flex;
-  &__side-bar{
+}
+  .side-bar{
     background-color: #2f3e51 ;
     width: 300px;
     &__user-name{
@@ -49,7 +50,8 @@
       }
     }
   }
-  &__chat-main{
+  
+  .chat-main{
     background-color: #ffffff;
     width: calc(100vw - 300px);
     &__group-info{
@@ -109,7 +111,7 @@
       }
     }
   }
-}
+
 
 
 .far {
